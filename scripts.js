@@ -1,6 +1,6 @@
-const navToggle = document.getElementById("nav-toggle");
-const navMenu = document.getElementById("nav-menu");
+const dropdown = document.getElementById("dropdown");
+const toggler = document.getElementById("toggler");
 
-navToggle.addEventListener("click", () => {
-  navMenu.classList.toggle("hidden");
+toggler.addEventListener("click", () => {
+  dropdown.classList.toggle("hidden");
 });
